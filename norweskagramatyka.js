@@ -17,6 +17,12 @@ var grammar = function() {
         else if ( ( event.target.className === 'aid-related' ) || ( event.target.parentNode.className === 'aid-related' ) ) {
             toggleArticle(event, true);
         }
+        else if ( event.target.className === 'btn btn-block btn-fb') {
+            sendGaShare(event, 'Facebook');
+        }
+        else if ( event.target.className === 'btn btn-block btn-tw') {
+            sendGaShare(event, 'Twitter');
+        }
     }
 
     function toggleArticle(event, onlyOpen) {
@@ -96,6 +102,11 @@ var grammar = function() {
         } else {
             ga('send', 'event', 'Anchors', anchor, "List");
         }
+    }
+
+    function sendGaShare(event, media) {
+        var anchor = event.target.parentNode.parentNode.parentNode.parentNode.firstElementChild.firstElementChild.innerHTML;
+        ga('send', 'event', 'Share', anchor, media);
     }
 
     function htmlEntities(str) {
