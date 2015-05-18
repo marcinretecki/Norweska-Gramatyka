@@ -89,10 +89,10 @@ var grammar = function() {
 
     function sendGa(anchor, onlyOpen) {
         if (onlyOpen) {
-            //ga('send', 'event', 'Anchors', anchor, "Related");
+            ga('send', 'event', 'Anchors', anchor, "Related");
         }
         else {
-            //ga('send', 'event', 'Anchors', anchor, "List");
+            ga('send', 'event', 'Anchors', anchor, "List");
         }
     }
 
