@@ -29,12 +29,10 @@ var grammar = function() {
         if (target.href) {
             hash = target.href.split("#")[1];
             anchor = htmlEntities( target.innerHTML );
-            console.log(anchor);
         }
         else if (target.parentNode.href) {
             hash = target.parentNode.href.split("#")[1];
             anchor = htmlEntities( target.parentNode.innerHTML );
-            console.log(anchor);
         }
         else {
             hash = false;
