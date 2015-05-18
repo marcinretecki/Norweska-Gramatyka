@@ -2,39 +2,83 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18966",
 "files": {
-	"\/c.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/c.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/scss\/css.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
+	"\/kit\/_footer.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/_footer.kit",
+		"outputAbbreviatedPath": "\/kit\/_footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/_header.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/kit\/_header.kit",
+		"outputAbbreviatedPath": "\/kit\/_header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/kit\/index.kit": {
+		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/css.scss",
-		"outputAbbreviatedPath": "\/c.css",
+		"inputAbbreviatedPath": "\/kit\/index.kit",
+		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 0
+		"outputPathIsSetByUser": 1
+		},
+	"\/lista-pytan.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lista-pytan.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/lista-pytan-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/norweskagramatyka-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/norweskagramatyka-min.js",
+		"outputAbbreviatedPath": "\/norweskagramatyka-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/norweskagramatyka.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/norweskagramatyka.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/norweskagramatyka.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/norweskagramatyka.js",
+		"outputAbbreviatedPath": "\/norweskagramatyka-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		}
 	},
 "hooks": [
