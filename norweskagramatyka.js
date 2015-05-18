@@ -53,7 +53,7 @@ var grammar = function() {
             }
             else {
                 closeArticle(article, child);
-                sendGa(anchor, onlyOpen);
+                sendGa(anchor, onlyOpen, true);
 
                 if (history && history.replaceState) { history.replaceState({}, "", '#!'); }
             }
@@ -87,11 +87,13 @@ var grammar = function() {
         article.className = 'aid-item';
     }
 
-    function sendGa(anchor, onlyOpen) {
+    function sendGa(anchor, onlyOpen, close) {
         if (onlyOpen) {
             ga('send', 'event', 'Anchors', anchor, "Related");
         }
-        else {
+        else if (close) {
+            ga('send', 'event', 'Anchors', anchor, "Close");
+        } else {
             ga('send', 'event', 'Anchors', anchor, "List");
         }
     }
