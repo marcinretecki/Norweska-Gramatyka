@@ -25,6 +25,10 @@ var grammar = function() {
         }
     }
 
+    // to do
+    // - add share all event
+    // - add outgoing link event
+
     function toggleArticle(event, onlyOpen) {
 
         event.preventDefault();
