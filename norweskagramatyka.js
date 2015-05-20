@@ -23,6 +23,12 @@ var grammar = function() {
         else if ( event.target.className === 'btn btn-block btn-tw') {
             sendGaShare(event, 'Twitter');
         }
+        else if (event.target.id === 'main-share-fb' ) {
+            sendGaMainShare('Facebook');
+        }
+        else if ( event.target.id === 'main-share-tw' ) {
+            sendGaMainShare('Twitter');
+        }
     }
 
     // to do
@@ -72,7 +78,6 @@ var grammar = function() {
 
     }
 
-
     function openArticle(article, child) {
         var height, heightZero;
 
@@ -90,7 +95,6 @@ var grammar = function() {
 
         article.className = 'aid-item aid-item-open';
     }
-
 
     function closeArticle(article, child) {
         child.style.height = null;
@@ -111,6 +115,10 @@ var grammar = function() {
     function sendGaShare(event, media) {
         var anchor = event.target.parentNode.parentNode.parentNode.parentNode.firstElementChild.firstElementChild.innerHTML;
         ga('send', 'event', 'Share', anchor, media);
+    }
+
+    function sendGaMainShare(media) {
+        ga('send', 'event', 'Share', 'Main', media);
     }
 
     function htmlEntities(str) {
