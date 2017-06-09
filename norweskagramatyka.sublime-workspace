@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-style"
+			],
+			[
+				"green",
+				"green-border"
+			],
+			[
+				"heigh",
+				"heightZero"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
 				"co",
 				"counting"
 			],
@@ -26,10 +46,6 @@
 			[
 				"text",
 				"text-transform"
-			],
-			[
-				"font-",
-				"font-variant"
 			],
 			[
 				"ucze",
@@ -74,10 +90,6 @@
 			[
 				"margin-",
 				"margin-bottom"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"nav",
@@ -296,18 +308,75 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "kit/index.kit",
 			"settings":
 			{
-				"buffer_size": 37582,
+				"buffer_size": 1863,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css.scss",
+			"file": "kit/_sidebar.kit",
 			"settings":
 			{
-				"buffer_size": 1480,
+				"buffer_size": 3645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kit/_main.kit",
+			"settings":
+			{
+				"buffer_size": 67316,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kit/_header.kit",
+			"settings":
+			{
+				"buffer_size": 1549,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/marcinretecki/Sites/nocnasowa/Framework/sass/norweskagramatyka.scss",
+			"settings":
+			{
+				"buffer_size": 6853,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kit/_footer.kit",
+			"settings":
+			{
+				"buffer_size": 925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "norweskagramatyka.js",
+			"settings":
+			{
+				"buffer_size": 3607,
+				"line_ending": "Unix",
+				"name": "norweskagramatyka.js"
+			}
+		},
+		{
+			"file": "lista-pytan.json",
+			"settings":
+			{
+				"buffer_size": 1260,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/_media.scss",
+			"settings":
+			{
+				"buffer_size": 2412,
 				"line_ending": "Unix"
 			}
 		}
@@ -404,6 +473,25 @@
 	},
 	"file_history":
 	[
+		"/Users/marcinretecki/Sites/nocnasowa/app_wireframe/1.htm",
+		"/Users/marcinretecki/Sites/nocnasowa/app_wireframe/s.css",
+		"/Users/marcinretecki/Sites/nocnasowa/Design/Newsletter/NocnaSowa-Mail-Minimal-v1-6 Natt 1.html",
+		"/Users/marcinretecki/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/marcinretecki/Sites/nocnasowa/Design/Newsletter/NocnaSowa-Mail-Minimal-v1-6 WP.html",
+		"/Users/marcinretecki/Sites/nocnasowa/Design/Newsletter/NocnaSowa-Mail-Minimal-v1-5.html",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/norweskagramatyka.css",
+		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/_media.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/s.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/index.html",
+		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/typography.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/base.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/_config.yml",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/kit/fb-share.kit",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/CNAME",
+		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/utilities.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/scss/norweskagramatyka.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/scss/css.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/css.scss",
 		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/data.json",
 		"/Users/marcinretecki/iOS App Dev/testionicblank/www/j/j-setninger.js",
 		"/Users/marcinretecki/iOS App Dev/testionicblank/www/lib/ionic/js/ionic.js",
@@ -512,34 +600,15 @@
 		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/ie6.css",
 		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/sidebar-poll.php",
 		"/Users/marcinretecki/Sites/nocnasowa/live/wp-content/themes/nocnasowa_theme/kursyoslo-functions.php",
-		"/Users/marcinretecki/Sites/nocnasowa/live/wp-content/themes/nocnasowa_theme/kursyoslo-functions-2.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/thanks.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/api/mailchimp-api.php",
-		"/Users/marcinretecki/Sites/nocnasowa/live/wp-admin/.htaccess",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/i/takk.svg",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-admin/.htaccess",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/cache/page_enhanced/.htaccess",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/.htaccess",
-		"/Users/marcinretecki/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/marcinretecki/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/styleguide.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/styleguide.html",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/rekomendacje-single.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/rekomendacje.php",
-		"/Users/marcinretecki/Sites/Drewutnia Emila/www/wp-content/themes/drewutnia/single-produkt.php",
-		"/Users/marcinretecki/Sites/nocnasowa/live/wp-content/themes/nocnasowa_theme/front.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/sass/screen.scss",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/sass/ie.scss",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/ie.css",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/s.scss"
+		"/Users/marcinretecki/Sites/nocnasowa/live/wp-content/themes/nocnasowa_theme/kursyoslo-functions-2.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
-		"height": 95.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -550,134 +619,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"colspan",
-			"&arr;",
-			"$arrr;",
-			"&arrr;",
-			"rzeczownik",
-			" – ",
+			"h4>",
 			"przymiotnik",
-			"<b>",
-			"strong",
-			"</i>",
+			"aid-35\"",
+			"aid-34\"",
+			"aid-33\"",
+			"aid-32\"",
+			"aid-31\"",
+			"aid-30\"",
+			"aid-29\"",
+			"aid-28\"",
+			"aid-27\"",
+			"aid-26\"",
+			"aid-25\"",
+			"aid-24\"",
+			"aid-23\"",
+			"aid-22\"",
+			"aid-21\"",
+			"aid-20\"",
+			"aid-19\"",
+			"aid-18\"",
+			"aid-17\"",
+			"stopniowanie",
+			"przymiotnik",
+			"podmiot",
+			"aid-13\"",
+			"aid-13",
+			"Orzeczenie",
+			"aid-11\"",
+			"aid-10\"",
+			"aid-9\"",
+			"aid-8\"",
+			"aid-35\"",
+			"modale-preteritum\"\"",
+			"aid-8\"",
+			"aid-7\"",
+			"aid-6\"",
+			"aid-5\"",
+			"aid-4\"",
+			"aid-3\"",
+			"aid-1\"",
+			"aid-1",
+			"preteritum",
+			"przeszły",
+			"przeszło-",
+			"przeszło",
+			"  </div>\n</article>",
+			"  </div>\n\n</article>",
+			"  </div>\n</article>",
+			"<hr class=\"aid-hr\" />",
+			"</div>\n</article>",
+			"<div class=\"aid-item\">",
+			"<article",
+			"Czas przeszło-teraźniejszy",
+			"Czas przeszło-teraźniejszy (<i>presens perfektum</i>)",
+			"dopełnienia",
+			"dopełnie",
+			"<i lang=\"no\">",
+			"się",
+			"<i lang=\"no\">",
+			"ul class=\"aid-np\"",
 			"<i>",
-			"<article>",
-			"rzeczownik:",
+			"<h2 class=\"aid-h2\">",
+			"Zaimki osobowe (<i>personlige pronomen</i>)",
+			"<h2 class=\"aid-h2\">",
+			"<hr class=\"hr-short\" />",
+			"\\n",
 			"</article>",
-			"<div>",
-			"</article>",
-			"</h3>",
-			"<h3>",
-			"$palatino",
-			"-webkit-font-smoothing",
-			"btnSec",
-			"btn-sec",
-			"position:relative",
-			"header-con",
-			".section",
-			".section-conten",
-			".row",
-			"et lite",
-			"pad",
-			"symbol",
-			".btn",
-			"section-top",
-			"h2",
-			"section-top",
-			"korekta",
-			"hr{",
-			".hr",
-			"section-dark",
-			"itemprop=\"name\"",
-			"section-dark",
-			"l-1",
-			"dark-grupy",
-			"h3",
-			"h3 class=\"section-h-thin centered\"",
-			"h3",
-			"echo",
-			"small item",
-			"auto",
-			"asia\"",
-			"asia-",
-			"aga\"",
-			"aga",
-			"magda-2",
-			"hentry",
-			"75%",
-			"4.5",
-			"1.66",
-			"}\n",
-			"btn{",
-			"–",
-			"#",
-			"cite",
-			"figcaption",
-			"img",
-			".col",
-			"h2",
-			"blockquote",
-			"about",
-			"margin-left:-",
-			"margin-left",
-			"figcaption",
-			"margin-left",
-			"\"\"",
-			"anua",
-			"\"\"",
-			"paulina",
-			"section-conte",
-			"btn-trans",
-			"icon",
-			".icon",
-			"$list = '<ul>';",
-			"blockquote",
-			".like",
-			"like",
-			".hr",
-			"trans",
-			"display:inline-block",
-			"btn-",
-			"height:100%",
-			"section-aside",
-			".hidden",
-			"height:100%",
-			"min-height",
-			"100{",
-			"popup",
-			"section-ope",
+			"</a></h2>",
+			"</a>",
+			"<a href=\"#aid-..\">",
+			"<a href=\"#aid-.\">",
+			"<a href=\"#aid",
+			"aid-hidden",
+			" class=\"aid-hidden\"",
+			"class=\"aid-item\" ",
+			"class=\"aid-anchor\" ",
+			"zaimki zwrotne",
+			"zaimki dzie",
+			"\">",
+			"newsletterLogo",
+			"rarr",
+			"predika",
+			"modalne w cza",
+			"ul > li",
+			"ul",
+			"@import",
+			"href=\"<!--$tweet-->",
+			"href=\"<!--$share-->",
+			"strona bierna",
+			"aid-20",
+			"Orzeczenie <i>",
+			"orzeczenie<",
+			"<a href=\"<!--$share-->u=<!--$url-->%23aid-\" class=\"btn btn-block btn-fb\">Podziel się na Facebooku</a>\n                <a href=<!--$tweet-->url=<!--$url-->%23aid-&text= class=\"btn btn-block btn-tw\">Podziel się na Twitterze</a>",
+			"\"<!--$share-->\"",
+			"\"<!--$tweet-->\"",
+			"<a href=\"\" class=\"btn btn-block btn-tw\">Podziel się na Twitterze</a>",
+			"<a href=\"\" class=\"btn btn-block btn-fb\">Podziel się na Facebooku</a>",
+			"zaimki osobowe",
+			"sprawdź",
+			"sprawd",
+			"zaprzeszły",
+			"równierz",
+			"czasowniki modalne",
+			"sendGa",
+			"<dd><a class=\"aid-anchor\"",
+			"aid-anchor",
+			"teraźnijesz",
+			"\"aid-\"",
+			"Ćwiczenie",
+			"#aid",
+			"\"#\"",
+			"aid-anchor",
+			"<a href=\"\">",
+			"<a href=\"\"",
+			"#aid-",
+			"href=\"http://",
+			"Fejsie",
+			"font-light",
+			",.aid-aside p + ul",
+			"<a ",
+			"<a href=\"#!\" class=\"aid-close\"></a>",
+			"z regó",
+			"btn-close",
+			"\"id",
+			"<div class=\"aid-hidden\">",
 			"close",
-			"levels-h",
-			"h3",
-			"hr-short",
-			"section-0",
-			".btn{",
-			"section-trans",
-			"section-tra",
-			"<hr id=\"kontakt\" class=\"divider\" />",
-			"w rozwoju",
-			".form",
-			"brakmiejsc",
-			"before",
-			"100",
-			"200",
-			"300",
-			"400",
-			"quote",
-			"tips",
-			"pise",
-			"pisac",
-			"hr-",
-			"icon",
-			"wp-05",
-			"btn-huge",
-			"<img src=\"http://www.credit-card-logos.com/images/visa_mastercard_credit-card-logos/mc_vs_accpt_h_038_gif.gif\" />",
-			"textarea",
-			"codzienn",
-			"<div class=\"beige rounded pad-x2 space-x4\">\n      <h3 class=\"section-h-thin centered\">Dagbok</h3>\n      <p class=\"intro centered space-half\">Twój dziennik po norwesku.</p>\n      <p class=\"no-margin centered space-x2 size-0\">30 dni | Start 1 września</p>\n\n      <div class=\"row space\">\n        <p class=\"col-10 center space-x4\">Rozwijaj swój norweski poprzez regularne pisanie. Otrzymasz <strong>pełny dostęp do forum dyskusyjnego</strong>, a ponadto:</p>\n\n        <div class=\"col-8\">\n          <div class=\"col-2\" style=\"padding-bottom:60px;background:#fff;border-radius:100%;opacity:0.7\"></div>\n          <p class=\"col-14\"><strong>Osobisty dziennik</strong><br />\n            Twoje prywatne miejsce, w którym możesz pisac o swoich codziennych sprawach, ....\n          </p>\n        </div>\n\n        <div class=\"col-8\">\n          <div class=\"col-2\" style=\"padding-bottom:60px;background:#fff;border-radius:100%;opacity:0.7\"></div>\n          <p class=\"col-14\"><strong>20000 znaków.</strong><br />\n            W dzienniku możesz napisać do 8 stron A4.\n          </p>\n        </div>\n      </div>\n\n      <div class=\"row space\">\n        <div class=\"col-8\">\n          <div class=\"col-2\" style=\"padding-bottom:60px;background:#fff;border-radius:100%;opacity:0.7\"></div>\n          <p class=\"col-14\"><strong>Regularna korekta</strong><br />\n            Każdy Twój wpis do dziennika będzie na bieżąco sprawdzany przez osobę z wykształceniem filologicznym z języka norweskiego.\n          </p>\n        </div>\n\n        <div class=\"col-8\">\n          <div class=\"col-2\" style=\"padding-bottom:60px;background:#fff;border-radius:100%;opacity:0.7\"></div>\n          <p class=\"col-14\"><strong>Pomoc w rozwoju gramatyki.</strong><br />\n            Oprócz samej korekty pomożemy Ci w....\n          </p>\n        </div>\n      </div>\n\n      <div class=\"row space\">\n        <p class=\"col-10 center\">Po zakończeniu Warsztatów otrzymasz cały Twój dziennim wraz z korektą w jednym pliku. Dzięki temu....</p>\n      </div>\n    </div>",
-			"section-dark",
-			"label",
-			"lalbel"
+			"\"np\"",
+			"\"h3\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -685,6 +754,48 @@
 		"regex": false,
 		"replace_history":
 		[
+			"h3>",
+			"</article>",
+			"\n\n<hr class=\"aid-hr\" />",
+			"</article>",
+			"",
+			"<article class=\"aid-item\"",
+			"ul class=\"aid-np\" lang=\"no\"",
+			"<i lang=\"no\">",
+			"",
+			"\n",
+			"</article>\\n<hr class=\"aid-hr\" />",
+			"</h2>",
+			"",
+			"aid-item",
+			"",
+			"rel=\"nofollow\" href=\"<!--$tweet-->",
+			"rel=\"nofollow\" href=\"<!--$share-->",
+			"<a href=\"<!--$share-->u=<!--$url-->%23aid-2\" class=\"btn btn-block btn-fb\" target=\"_blank\">Podziel się na Facebooku</a>\n                <a href=\"<!--$tweet-->%20Czas%20perfektum&url=<!--$url-->%23aid-2\" class=\"btn btn-block btn-tw\" target=\"_blank\">Podziel się na Twitterze</a>",
+			"\"<!--$share-->u=<!--$url-->%23aid-\"",
+			"\"<!--$share-->\"u=<!--$url-->%23aid-",
+			"<!--$tweet-->url=<!--$url-->%23aid-&text=",
+			"<a href=\"<!--$tweet-->\" class=\"btn btn-block btn-tw\">Podziel się na Twitterze</a>",
+			"<a href=\"<!--$share-->\" class=\"btn btn-block btn-fb\">Podziel się na Facebooku</a>",
+			"<dd><a class=\"aid-related\"",
+			"teraźniejsz",
+			"\"#aid-\"",
+			"<a class=\"aid-anchor\" href=\"#\">",
+			"<a class=\"aid-anchor\" href=\"#\"",
+			"target=\"_blank\" href=\"http://",
+			"Facebooku",
+			"<a class=\"aid-anchor\" ",
+			"",
+			"aid-close",
+			"\"aid",
+			"<div class=\"aid-hidden\">\n            <a href=\"#!\" class=\"btn-close\"></a>",
+			"\"aid-np\"",
+			"\"aid-h2\"",
+			"</a>",
+			"<a/></h2>",
+			"<h2 class=\"h3\">",
+			"<h3><a href=\"#aid-1\">",
+			"aid-hidden",
 			"&rarr;",
 			"$rarr;",
 			"</td>   <td>",
@@ -770,49 +881,7 @@
 			"green-border",
 			"orange-border",
 			"red-border",
-			"$white",
-			"$font-light",
-			"$font-dark",
-			"$red",
-			"$orange",
-			"$green",
-			"$beige",
-			"$dark",
-			"$blue-hover",
-			"$blue",
-			"$space-10",
-			"$space-8",
-			"$space-6",
-			"$space-5",
-			"$space-4",
-			"$space-3",
-			"$space-2",
-			"$size-2",
-			"space-x2",
-			"col-10",
-			"$space-x4",
-			"space-x2",
-			"(-$space-double)",
-			"(-$space)",
-			"(-$space-half)",
-			"-($space-half)",
-			"$space-half",
-			"space-double",
-			"rem",
-			"\"row\"",
-			"col-8",
-			"row",
-			"$space-2",
-			"$space",
-			"opinie",
-			"<article class=\"col\" itemprop=\"review\" itemscope itemtype=\"http://schema.org/Review\">",
-			"<p class=\"recommends-text\" itemprop=\"reviewBody\">",
-			"<h3 itemprop=\"author\">",
-			"recommends-text",
-			"recommends-block",
-			"",
-			"header-abs",
-			"header-rel"
+			"$white"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -823,27 +892,86 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "kit/index.kit",
 					"settings":
 					{
-						"buffer_size": 37582,
+						"buffer_size": 1863,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								330,
-								330
+								1638,
+								1638
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 232.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "kit/_sidebar.kit",
+					"settings":
+					{
+						"buffer_size": 3645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "kit/_main.kit",
+					"settings":
+					{
+						"buffer_size": 67316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2524,
+								2535
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -855,26 +983,220 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "css.scss",
+					"buffer": 3,
+					"file": "kit/_header.kit",
 					"settings":
 					{
-						"buffer_size": 1480,
+						"buffer_size": 1549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1451,
-								1451
+								1418,
+								1425
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/marcinretecki/Sites/nocnasowa/Framework/sass/norweskagramatyka.scss",
+					"settings":
+					{
+						"buffer_size": 6853,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
+							"spell_check": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2626.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "kit/_footer.kit",
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "norweskagramatyka.js",
+					"settings":
+					{
+						"buffer_size": 3607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "norweskagramatyka.js",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lista-pytan.json",
+					"settings":
+					{
+						"buffer_size": 1260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								600,
+								600
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
+							"syntax": "Packages/Better JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/_media.scss",
+					"settings":
+					{
+						"buffer_size": 2412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
