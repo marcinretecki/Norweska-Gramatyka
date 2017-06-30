@@ -1,57 +1,122 @@
 <!-- @import "header.kit" -->
 
-<!-- $tweet = https://twitter.com/intent/tweet?text=Pierwsza%20pomoc%20z%20norweskiej%20gramatyki%3A -->
-<!-- $share = https://www.facebook.com/sharer/sharer.php? -->
-<!-- $url = http%3A%2F%2Fwww.norweskagramatyka.com%2F -->
 
-
-<div class="section-beige" style="border:0;">
+<div class="section-beige">
 
   <div class="section-content">
-    <div class="section-aid">
+    <div id="js__main" class="main-column space-2">
 
-      <div class="h1 size-2 centered space-x2"><span style="color:#3a8ac0;">Nocna</span> Sowa</div>
+      <div class="group space-2">
+        <p class="aid-chat-bubble"><i id="js__hei">God dag!</i></p>
 
-      <h1 class="size-5 centered">Pierwsza pomoc<br />z&nbsp;norweskiej gramatyki</h1>
+        <p class="aid-chat-bubble">Klinika Nocnej Sowy się kłania. W czym możemy Ci pomóc?</p>
 
-      <h3 class="size-2">Heisann!</h3>
+        <p class="aid-chat-bubble aid-chat-bubble--right" >mam problem z norweską gramatyką <svg class="emojione-svg emojione-svg--chat"><use xlink:href="smile_sad.sprites.svg#emoji-1f625"></use></svg></p>
 
-      <p>Gdy potrzebujesz błyskawicznej pomocy z norweskiej gramatyki, znajdziesz tu skrót najważniejszych zasad.</p>
+        <p class="aid-chat-bubble">Oddychaj spokojnie. Zaraz Ci pomożemy.</p>
 
-      <p>Stworzyliśmy to miejsce:</p>
+        <p class="aid-chat-bubble">Wybierz zagadnienie, z którym masz problem:</p>
+      </div>
 
-      <ul>
-        <li>na wypadek pilnej potrzeby sprawdzenia jakiejś reguły gramatycznej,</li>
-        <li>by ułatwić poliglotom analizę porównawczą, na etapie wyboru kolejnego, fascynującego języka.</li>
-      </ul>
 
-      <p>Na wszelki wypadek podziel się tą stroną z innymi (nigdy nie wiesz komu uratujesz życie).</p>
+      <div id="problem" class="space-4">
+        <nav>
+          <ul class="aid-problems-list navbar__list">
+            <li>
+              <a href="#js__tid" class="aid-problems-list__item aid-problems-list__item--first">czasy</a>
 
-      <div class="row">
-        <div class="col-8">
-          <a id="main-share-fb" target="_blank" rel="nofollow" href="<!--$share-->u=<!--$url-->" class="btn btn-fb btn-block space">Podziel się na Facebooku</a>
-        </div>
-        <div class="col-8">
-          <a id="main-share-tw" target="_blank" rel="nofollow" href="<!--$tweet-->&url=<!--$url-->" class="btn btn-tw btn-block">Podziel się na Twitterze</a>
-        </div>
+              <ul id="js__tid" class="aid-problems-list aid-problems-list--sublist">
+                <li><a href="#presens-perfektum" class="aid-problems-list__item aid-problems-list__item--sublist aid-problems-list__item--sublist--first"><i>perfektum</i> (użycie <i>har</i>)</a></li>
+                <li><a href="#preteritum" class="aid-problems-list__item aid-problems-list__item--sublist">czas przeszły</a></li>
+                <li><a href="#futurum" class="aid-problems-list__item aid-problems-list__item--sublist">czas przyszły</a></li>
+                <li><a href="#presens" class="aid-problems-list__item aid-problems-list__item--sublist">czas teraźniejszy</a></li>
+                <li><a href="#passiv" class="aid-problems-list__item aid-problems-list__item--sublist">strona bierna</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#js__verb" class="aid-problems-list__item">czasowniki</a>
+
+              <ul id="js__verb" class="aid-problems-list aid-problems-list--sublist">
+                <li><a href="#verb" class="aid-problems-list__item aid-problems-list__item--sublist aid-problems-list__item--sublist--first">odmiana czasowników</a></li>
+                <li><a href="#modale" class="aid-problems-list__item aid-problems-list__item--sublist">czasowniki modalne</a></li>
+                <li><a href="#imperativ" class="aid-problems-list__item aid-problems-list__item--sublist">tryb rozkazujący</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#js__adjektiv" class="aid-problems-list__item ">przymiotniki</a>
+
+              <ul id="js__adjektiv" class="aid-problems-list aid-problems-list--sublist">
+                <li><a href="#adjektiv" class="aid-problems-list__item aid-problems-list__item--sublist aid-problems-list__item--sublist--first">odmiana przymiotników</a></li>
+                <li><a href="#gradering" class="aid-problems-list__item aid-problems-list__item--sublist ">stopniowanie</a></li>
+                <li><a href="#perfektum-partisipp" class="aid-problems-list__item aid-problems-list__item--sublist">użycie czasowników jak przymiotników<br />(imiesłów przymiotnikowy bierny)</a></li>
+              </ul>
+            </li>
+
+            <li>
+              <a href="#js__substantiv" class="aid-problems-list__item ">rzeczowniki</a>
+
+              <ul id="js__substantiv" class="aid-problems-list aid-problems-list--sublist">
+                <li><a href="#determinativ" class="aid-problems-list__item aid-problems-list__item--sublist aid-problems-list__item--sublist--first">nauka rodzajników</a></li>
+                <li><a href="#substantiv" class="aid-problems-list__item aid-problems-list__item--sublist">odmiana rzeczowników</a></li>
+                <li><a href="#genitiv" class="aid-problems-list__item aid-problems-list__item--sublist">określanie przynależności <i>(genitiv -s)</i></a></li>
+              </ul>
+
+            </li>
+
+            <li>
+              <a href="#js__ordning" class="aid-problems-list__item ">szyk zdania</a>
+
+              <ul id="js__ordning" class="aid-problems-list aid-problems-list--sublist">
+                <li><a href="#sideordning" class="aid-problems-list__item aid-problems-list__item--sublist aid-problems-list__item--sublist--first">zdania twierdzące</a></li>
+                <li><a href="#sporsmal" class="aid-problems-list__item aid-problems-list__item--sublist ">zdania pytające</a></li>
+                <li><a href="#syntaks" class="aid-problems-list__item aid-problems-list__item--sublist ">dokładna struktura zdania prostego</a></li>
+                <li><a href="#underordning" class="aid-problems-list__item aid-problems-list__item--sublist aid-problems-list__item--last">szyk podrzędny</a></li>
+
+              </ul>
+            </li>
+
+            <li>
+              <a href="#js__pronomen" class="aid-problems-list__item aid-problems-list__item--last">zaimki</a>
+
+              <ul id="js__pronomen" class="aid-problems-list aid-problems-list--sublist">
+                <li><a href="#personlige-pronomen" class="aid-problems-list__item aid-problems-list__item--sublist aid-problems-list__item--sublist--first">zaimki osobowe</a></li>
+                <li><a href="#eiendomspronomen" class="aid-problems-list__item aid-problems-list__item--sublist ">zaimki dzierżawcze</a></li>
+                <li><a href="#refleksive-pronomen" class="aid-problems-list__item aid-problems-list__item--sublist ">zaimki zwrotne</a></li>
+                <li><a href="#sporrepronomen" class="aid-problems-list__item aid-problems-list__item--sublist aid-problems-list__item--last">zaimki pytające</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="pad white rounded">
+        <iframe class="alignright" src="https://www.facebook.com/plugins/like.php?locale=pl_PL&href=http%3A%2F%2Fwww.norweskagramatyka.com%2F&width=75&layout=box_count&action=like&size=small&show_faces=false&share=true&height=65&appId=110154605804697" width="95" height="65" style="border:none;overflow:hidden;padding-left:1rem;" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+        <p class="space-0">Klinika Nocnej Sowy czynna jest całą dobę od poniedziałku do niedzieli, na zasadzie wolontariatu. <svg class="emojione-svg emojione-svg--chat"><use xlink:href="smile_sad.sprites.svg#emoji-1f637"></use></svg></p>
       </div>
 
 
       <hr class="aid-hr" />
 
-      <!-- @import "main.kit" -->
+      <!-- @import "czasy.kit" -->
+      <!-- @import "czasowniki.kit" -->
+      <!-- @import "szyk.kit" -->
+      <!-- @import "przymiotniki.kit" -->
+      <!-- @import "rzeczowniki.kit" -->
+      <!-- @import "zaimki.kit" -->
 
+    </div>
+
+    <div class="centered">
+      <a class="btn btn-s-4 btn-green" href="#problem">Zagadnienia &uarr;</a>
     </div>
   </div>
 
-  <a class="btn btn-4 btn-block btn-aid-list" href="#list" onClick="smoothScrollTo('list');ga('send', 'event', 'Anchors', 'Spis treści', 'Spis treści');">Spis treści &darr;</a>
-
-  <!-- @import "sidebar.kit" -->
-
-  <!-- @import "footer.kit" -->
 
 </div>
 
 
-
+<!-- @import "footer.kit" -->
 

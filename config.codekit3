@@ -7,8 +7,19 @@
 		"uuidString": "E155EE83-AFBB-4DD9-8EA2-90E5B1FEA81B"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
+	"\/apple-launch-screen.png": {
+		"ft": 32768,
+		"iS": 119728,
+		"oA": 0,
+		"oAP": "\/apple-launch-screen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/CNAME": {
 		"ft": 8192,
 		"oA": 2,
@@ -38,6 +49,24 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/kit\/_czasowniki.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/_czasowniki.html",
+		"oF": 0
+		},
+	"\/kit\/_czasy.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/_czasy.html",
+		"oF": 0
+		},
+	"\/kit\/_faces.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/_faces.html",
+		"oF": 0
+		},
 	"\/kit\/_footer.kit": {
 		"ft": 2048,
 		"oA": 1,
@@ -50,10 +79,16 @@
 		"oAP": "\/kit\/_header.html",
 		"oF": 0
 		},
-	"\/kit\/_main.kit": {
+	"\/kit\/_przymiotniki.kit": {
 		"ft": 2048,
 		"oA": 1,
-		"oAP": "\/kit\/_main.html",
+		"oAP": "\/kit\/_przymiotniki.html",
+		"oF": 0
+		},
+	"\/kit\/_rzeczowniki.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/_rzeczowniki.html",
 		"oF": 0
 		},
 	"\/kit\/_sidebar.kit": {
@@ -62,19 +97,23 @@
 		"oAP": "\/kit\/_sidebar.html",
 		"oF": 0
 		},
+	"\/kit\/_szyk.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/_szyk.html",
+		"oF": 0
+		},
+	"\/kit\/_zaimki.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/kit\/_zaimki.html",
+		"oF": 0
+		},
 	"\/kit\/index.kit": {
 		"ft": 2048,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 2
-		},
-	"\/lista-pytan.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/lista-pytan-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		},
 	"\/norweska-gramatyka-big.png": {
 		"ft": 32768,
@@ -92,6 +131,17 @@
 		"iS": 3096,
 		"oA": 0,
 		"oAP": "\/norweska-gramatyka.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/norweska-gramatyka@2x.png": {
+		"ft": 32768,
+		"iS": 13652,
+		"oA": 0,
+		"oAP": "\/norweska-gramatyka@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -116,6 +166,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/norweskagramatyka-min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/norweskagramatyka-min.js.map",
+		"oF": 0
 		},
 	"\/norweskagramatyka.css": {
 		"aP": 0,
@@ -147,6 +203,38 @@
 		"oA": 2,
 		"oAP": "\/norweskagramatyka.sublime-workspace",
 		"oF": 0
+		},
+	"\/smile_sad.sprites.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/smile_sad.sprites.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/touch-icon-152.png": {
+		"ft": 32768,
+		"iS": 5436,
+		"oA": 0,
+		"oAP": "\/touch-icon-152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/touch-icon-180.png": {
+		"ft": 32768,
+		"iS": 5436,
+		"oA": 0,
+		"oAP": "\/touch-icon-180.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		}
 	},
 "hooks": [
@@ -2093,6 +2181,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
@@ -2187,7 +2276,7 @@
 			"flagValue": -1
 			},
 		"keep_fnames": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"loops": {
@@ -2195,7 +2284,7 @@
 			"flagValue": -1
 			},
 		"mangle": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"max-line-len": {
