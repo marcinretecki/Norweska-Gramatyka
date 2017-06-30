@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25849",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/apple-launch-screen.png": {
 		"ft": 32768,
 		"iS": 119728,
@@ -128,7 +134,7 @@
 		},
 	"\/norweska-gramatyka.png": {
 		"ft": 32768,
-		"iS": 3096,
+		"iS": 2118,
 		"oA": 0,
 		"oAP": "\/norweska-gramatyka.png",
 		"oF": 0,
