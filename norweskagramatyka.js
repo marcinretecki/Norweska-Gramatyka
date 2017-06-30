@@ -22,6 +22,8 @@
 var grammar = function() {
   "use strict";
 
+  var debug = false;
+
   var main = document.getElementById('js__main');
   var mainClass = main.className;
   var activeSubsection = '';
@@ -82,35 +84,34 @@ var grammar = function() {
     var hash;
     var url;
     var currentUrl = window.location.href.split('#')[0];
-    var dataFace;
-    var aidId;
+    var feedbackEl;
+    var feedback;
+    var aidEl;
     var parent;
+    var elWithHref = getParentWithAtt( event.target, 'href' );
 
-    if ( event.target.href ) {
-      hash = event.target.href.split('#')[1];
-      url = event.target.href.split('#')[0];
+    showDebugMsg( elWithHref );
+
+
+    if ( elWithHref ) {
+      hash = elWithHref.href.split('#')[1];
+      url = elWithHref.href.split('#')[0];
     }
 
-    if ( event.target.parentNode.href ) {
-      hash = event.target.parentNode.href.split('#')[1];
-      url = event.target.parentNode.href.split('#')[0];
-    }
 
     //  anchor to current page
-    if ( hash && ( url === currentUrl ) ) {
+    if ( hash && url && ( url === currentUrl ) ) {
 
-      window.console.log( 'hash: ' + hash );
+      showDebugMsg( 'hash: ' + hash );
+
+      ga('send', 'event', 'Problems', '#' + hash, "Hash");
 
       //  check if it is a sublist
       if ( sublists.hasOwnProperty( hash ) ) {
 
-        console.log('sublists ma prop');
+        showDebugMsg('sublists ma prop');
 
         toggleSublist( sublists[ hash ] );
-
-        console.log( activeSubsection );
-
-        ga('send', 'event', 'Problems', '#' + hash, "Hash");
 
         event.preventDefault();
         event.stopPropagation();
@@ -122,7 +123,7 @@ var grammar = function() {
       //  check if jsClasses has the prop
       if ( problems.indexOf( hash ) >= 0  ) {
 
-        console.log('problems list has hash, add class');
+        showDebugMsg('problems list has hash, add class');
 
         main.className = mainClass + ' js__hidden js__' + hash;
 
@@ -137,23 +138,27 @@ var grammar = function() {
       return;
 
     }
+    //  it should be outbound link
+    else if ( url && ( url !== currentUrl ) ) {
 
-    //  Data Face
-    dataFace = event.target.getAttribute('data-face');
+      ga('send', 'event', 'Outgoing', url, 'Link');
 
-    if ( !dataFace ) {
-      dataFace = event.target.parentNode.getAttribute('data-face');
     }
 
-    if ( dataFace ) {
-      aidId = getParentWithId( event.target );
+    //  Data Feedback
+    feedbackEl = getParentWithAtt( event.target, 'data-feedback' );
+
+    if ( feedbackEl ) {
+      feedback = feedbackEl.getAttribute('data-feedback');
+      aidEl = getParentWithId( event.target );
     }
 
-    //  If there is dataFace and found aidId
-    if ( aidId && dataFace ) {
+    //  If there is feedback and found aidEl
+    if ( aidEl && feedback ) {
 
-      console.log( 'aidId: ' + aidId + ' | dataFace: ' + dataFace );
-      ga('send', 'event', 'Feedback', aidId, dataFace);
+      showDebugMsg( 'aidId: ' + aidEl.id + ' | feedback: ' + feedback );
+
+      ga('send', 'event', 'Feedback', '#' + aidEl.id, feedback);
 
       showFeedback( event.target );
 
@@ -173,8 +178,8 @@ var grammar = function() {
         { duration: 400, easing: 'easeInOutQuart' }
       );
 
-      console.log('hide active section');
-      console.log(el);
+      showDebugMsg('hide active section');
+      showDebugMsg(el);
     }
 
     //  el is not active
@@ -182,7 +187,7 @@ var grammar = function() {
 
       activeSubsection = '';
 
-      console.log('reset active section');
+      showDebugMsg('reset active section');
 
     }
     else {
@@ -196,8 +201,8 @@ var grammar = function() {
 
         activeSubsection = el;
 
-        console.log('show new section');
-        console.log(el);
+        showDebugMsg('show new section');
+        showDebugMsg(el);
 
     }
 
@@ -214,6 +219,8 @@ var grammar = function() {
     if ( currentHash && ( currentHash.length > 0 ) && ( problems.indexOf( currentHash ) >= 0 ) ) {
 
       main.className = mainClass + ' js__hidden js__' + currentHash;
+
+      showDebugMsg('Class: ' + mainClass + ' js__hidden js__' + currentHash);
 
     }
 
@@ -241,7 +248,7 @@ var grammar = function() {
 
     var h = t.getHours();
 
-    console.log( h );
+    showDebugMsg('h: ' + h );
 
     if ( h < 5 ) {
       //  god kveld
@@ -263,7 +270,7 @@ var grammar = function() {
     }
     //  else use 3 in var
 
-    console.log( no );
+    showDebugMsg('no: ' + no );
 
     //  update elements html
     if ( ( no >= 0 ) && heiEl ) {
@@ -284,33 +291,34 @@ var grammar = function() {
   }
 
 
-  function sendGaShare(event, media) {
-    var anchor = event.target.parentNode.parentNode.parentNode.parentNode.firstElementChild.firstElementChild.innerHTML;
-    ga('send', 'event', 'Share', anchor, media);
-  }
+  function getParentWithAtt( el, att ) {
 
+    var parent;
 
-  function sendGaMainShare(media) {
-    ga('send', 'event', 'Share', 'Main', media);
-  }
+    if ( el.hasAttribute( att ) ) {
+      return el;
+    }
 
+    parent = el.parentNode;
 
-  function htmlEntities(str) {
-    return String(str).replace(/<i>/g, '').replace(/<\/i>/g, '').replace(/"/g, '');
-  }
-
-
-  function getParentWithId( el ) {
-
-    var parent = el.parentNode;
-
-    while ( !parent.id ) {
+    while ( !parent.hasAttribute( att ) ) {
 
       parent = parent.parentNode;
 
+      if ( parent == document.body ) {
+        return false;
+      }
+
+
     }
 
-    return parent.id;
+    return parent;
+
+  }
+
+  function getParentWithId( el ) {
+
+    return getParentWithAtt( el, 'id' );
 
   }
 
@@ -341,4 +349,25 @@ var grammar = function() {
 
 
 
+  function showDebugMsg( msg ) {
+
+    if ( !debug ) {
+      return;
+    }
+
+    window.console.log( msg );
+
+  }
+
+
+
 }();
+
+
+//  attribute polyfill
+;(function(prototype) {
+  prototype.hasAttribute = prototype.hasAttribute || function(name) {
+      return !!(this.attributes[name] &&
+                this.attributes[name].specified);
+  }
+})(Element.prototype);
