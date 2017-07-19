@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"feed",
+				"feedbackEl"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"curre",
+				"currentUrl"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
 				"font-",
 				"font-style"
 			],
@@ -42,10 +62,6 @@
 			[
 				"i",
 				"inherit"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"ucze",
@@ -308,50 +324,10 @@
 	"buffers":
 	[
 		{
-			"file": "kit/index.kit",
-			"settings":
-			{
-				"buffer_size": 1863,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "kit/_sidebar.kit",
-			"settings":
-			{
-				"buffer_size": 3645,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "kit/_main.kit",
-			"settings":
-			{
-				"buffer_size": 67316,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "kit/_header.kit",
-			"settings":
-			{
-				"buffer_size": 1549,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/Users/marcinretecki/Sites/nocnasowa/Framework/sass/norweskagramatyka.scss",
 			"settings":
 			{
-				"buffer_size": 6853,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "kit/_footer.kit",
-			"settings":
-			{
-				"buffer_size": 925,
+				"buffer_size": 7611,
 				"line_ending": "Unix"
 			}
 		},
@@ -359,24 +335,96 @@
 			"file": "norweskagramatyka.js",
 			"settings":
 			{
-				"buffer_size": 3607,
+				"buffer_size": 6854,
 				"line_ending": "Unix",
 				"name": "norweskagramatyka.js"
 			}
 		},
 		{
-			"file": "lista-pytan.json",
+			"file": "kit/_footer.kit",
 			"settings":
 			{
-				"buffer_size": 1260,
+				"buffer_size": 981,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/_media.scss",
+			"file": "kit/index.kit",
 			"settings":
 			{
-				"buffer_size": 2412,
+				"buffer_size": 6828,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/marcinretecki/Sites/nocnasowa/livecopy/las/c/i/emojione.sprites.svg",
+			"settings":
+			{
+				"buffer_size": 3159538,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kit/_szyk.kit",
+			"settings":
+			{
+				"buffer_size": 29062,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kit/_czasy.kit",
+			"settings":
+			{
+				"buffer_size": 14391,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kit/_zaimki.kit",
+			"settings":
+			{
+				"buffer_size": 11228,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kit/_czasowniki.kit",
+			"settings":
+			{
+				"buffer_size": 11034,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kit/_przymiotniki.kit",
+			"settings":
+			{
+				"buffer_size": 10686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kit/_rzeczowniki.kit",
+			"settings":
+			{
+				"buffer_size": 12537,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "smile_sad.sprites.svg",
+			"settings":
+			{
+				"buffer_size": 48067,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kit/_faces.kit",
+			"settings":
+			{
+				"buffer_size": 501,
 				"line_ending": "Unix"
 			}
 		}
@@ -473,16 +521,38 @@
 	},
 	"file_history":
 	[
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/ttt.svg",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/tttt.svg",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/index.html",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/kit/_header.kit",
+		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/chat-bot-rzeczownik.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/kit/_faces.kit",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/smile_sad.sprites.svg",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/norweskagramatyka.sublime-project",
+		"/Users/marcinretecki/Sites/nocnasowa/livecopy/las/c/i/emojione.sprites.svg",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/kit/_face-smile.kit",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/kit/_face-sad.kit",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/norweskagramatyka-min.css",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/norweskagramatyka-min.js",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/norweskagramatyka.css",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/kit/index.kit",
+		"/Users/marcinretecki/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/_sections.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/kit/_footer.kit",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/kit/_sidebar.kit",
+		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/_typography.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/lista-zagadnien.txt",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/lista-pytan.json",
+		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/kit/_main.kit",
+		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/_grids.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/_media.scss",
+		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/las.scss",
 		"/Users/marcinretecki/Sites/nocnasowa/app_wireframe/1.htm",
 		"/Users/marcinretecki/Sites/nocnasowa/app_wireframe/s.css",
 		"/Users/marcinretecki/Sites/nocnasowa/Design/Newsletter/NocnaSowa-Mail-Minimal-v1-6 Natt 1.html",
-		"/Users/marcinretecki/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/marcinretecki/Sites/nocnasowa/Design/Newsletter/NocnaSowa-Mail-Minimal-v1-6 WP.html",
 		"/Users/marcinretecki/Sites/nocnasowa/Design/Newsletter/NocnaSowa-Mail-Minimal-v1-5.html",
-		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/norweskagramatyka.css",
-		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/_media.scss",
 		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/s.scss",
-		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/index.html",
 		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/typography.scss",
 		"/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/base.scss",
 		"/Users/marcinretecki/Sites/nocnasowa/norweskagramatyka/_config.yml",
@@ -578,29 +648,7 @@
 		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/warsztaty-pisania-platnosc.php",
 		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/warsztaty-pisania-przelew.php",
 		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/bubble-functions.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/single-onecolumn.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/sidebar.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/sidebar-pisanie.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/opinie-single.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/footer-fb.php",
-		"/Users/marcinretecki/Sites/nocnasowa/live/wp-content/themes/nocnasowa_theme/warsztaty-pisania.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/api/mailchimp-batch-actions.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/api/mailchimp.php",
-		"/Users/marcinretecki/Sites/nocnasowa/live/wp-content/themes/nocnasowa_theme/kursyoslo.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/api/warsztaty.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/j-ck.js",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/j.js",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/header-abs.php",
-		"/Users/marcinretecki/Sites/nocnasowa/live/wp-content/themes/nocnasowa_theme/header-abs.php",
-		"/Users/marcinretecki/Sites/nocnasowa/live/fabryka/wp-content/themes/fabryka_nocnasowa/index.php",
-		"/Users/marcinretecki/Sites/nocnasowa/live/fabryka/wp-content/themes/fabryka_nocnasowa/style.css",
-		"/Users/marcinretecki/Sites/nocnasowa/live/c/fabryka.css",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/sass/fabryka.scss",
-		"/Users/marcinretecki/Sites/nocnasowa/live/c/api/mailchimp-api.php",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/c/ie6.css",
-		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/sidebar-poll.php",
-		"/Users/marcinretecki/Sites/nocnasowa/live/wp-content/themes/nocnasowa_theme/kursyoslo-functions.php",
-		"/Users/marcinretecki/Sites/nocnasowa/live/wp-content/themes/nocnasowa_theme/kursyoslo-functions-2.php"
+		"/Users/marcinretecki/Sites/nocnasowa/livecopy/wp-content/themes/nocnasowa_theme/single-onecolumn.php"
 	],
 	"find":
 	{
@@ -619,141 +667,169 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"h4>",
-			"przymiotnik",
-			"aid-35\"",
-			"aid-34\"",
-			"aid-33\"",
-			"aid-32\"",
-			"aid-31\"",
-			"aid-30\"",
-			"aid-29\"",
-			"aid-28\"",
-			"aid-27\"",
-			"aid-26\"",
-			"aid-25\"",
-			"aid-24\"",
-			"aid-23\"",
-			"aid-22\"",
-			"aid-21\"",
-			"aid-20\"",
-			"aid-19\"",
-			"aid-18\"",
-			"aid-17\"",
-			"stopniowanie",
-			"przymiotnik",
+			"gradering",
+			"ga(",
+			"List",
+			"konjunksjon",
+			"przemiotów",
+			"takie sami",
+			"okreslają",
+			"dzierżawsze",
+			"dzierżawcze",
+			"gdzięki",
+			"najwyższy",
+			"Ona daje lek mi",
+			"na raz",
+			"unmieścić",
+			"dezinfekować",
+			" dezinfekować",
+			"<h4>Ćwiczenia z tego tematu</h4>\n\n    </div>",
+			"getParentWithId",
+			"showFeedback",
+			"sendGaShare",
+			"problem",
+			"event.target.href",
+			"split",
+			"show new section",
+			"że nie masz 5 lat i norweskich",
+			"że nie masz 5 lat i norweskich\n",
+			"”",
+			"czy",
+			"skje",
+			"1f944",
+			"1f469-1f469-1f466",
+			"1f468-1f469-1f467-1f466",
+			"1f3c3",
+			"1f596",
+			"1f636",
+			"1f48a",
+			"shape",
+			"1f44e",
+			"shape",
+			"fill-rule",
+			"shape",
+			"1f44e",
+			"oppp",
+			"1f642",
+			"1f44d",
+			"1f44d-1f3fb",
+			"1f635",
+			"pomagamy",
+			"przedpole",
+			"1f60e",
+			"vitamin",
+			"behandling",
+			"_",
+			"1f634",
+			"sove",
+			"ikke sove",
+			"fikke ikke",
+			"kommer til",
+			"bedøvet",
+			"1f636",
+			"strona",
+			"Jeg bekymrer",
+			"1f321",
+			"feber",
+			"1f921",
+			"1f913",
+			"1f922",
+			"1f916",
+			"1f921",
+			"føler",
+			"1f913",
+			"1f596-1f3fc",
+			"1f596",
+			"hånda",
+			"hånda di",
+			"1f596",
+			"1f596-1f3fb",
+			"1f37c",
+			"1f41f",
+			"1f915",
+			"banda",
+			"1f62f",
+			"vankomycin",
+			"sopp",
+			"1f344",
+			"kaktusarter",
+			"1f335",
+			"huggorm",
+			"1f40d",
 			"podmiot",
-			"aid-13\"",
-			"aid-13",
-			"Orzeczenie",
-			"aid-11\"",
-			"aid-10\"",
-			"aid-9\"",
-			"aid-8\"",
-			"aid-35\"",
-			"modale-preteritum\"\"",
-			"aid-8\"",
-			"aid-7\"",
-			"aid-6\"",
-			"aid-5\"",
-			"aid-4\"",
-			"aid-3\"",
-			"aid-1\"",
-			"aid-1",
-			"preteritum",
-			"przeszły",
-			"przeszło-",
-			"przeszło",
-			"  </div>\n</article>",
-			"  </div>\n\n</article>",
-			"  </div>\n</article>",
-			"<hr class=\"aid-hr\" />",
-			"</div>\n</article>",
-			"<div class=\"aid-item\">",
-			"<article",
-			"Czas przeszło-teraźniejszy",
-			"Czas przeszło-teraźniejszy (<i>presens perfektum</i>)",
-			"dopełnienia",
-			"dopełnie",
-			"<i lang=\"no\">",
-			"się",
-			"<i lang=\"no\">",
-			"ul class=\"aid-np\"",
-			"<i>",
-			"<h2 class=\"aid-h2\">",
-			"Zaimki osobowe (<i>personlige pronomen</i>)",
-			"<h2 class=\"aid-h2\">",
-			"<hr class=\"hr-short\" />",
-			"\\n",
-			"</article>",
-			"</a></h2>",
-			"</a>",
-			"<a href=\"#aid-..\">",
-			"<a href=\"#aid-.\">",
-			"<a href=\"#aid",
-			"aid-hidden",
-			" class=\"aid-hidden\"",
-			"class=\"aid-item\" ",
-			"class=\"aid-anchor\" ",
-			"zaimki zwrotne",
-			"zaimki dzie",
-			"\">",
-			"newsletterLogo",
-			"rarr",
-			"predika",
-			"modalne w cza",
-			"ul > li",
-			"ul",
-			"@import",
-			"href=\"<!--$tweet-->",
-			"href=\"<!--$share-->",
-			"strona bierna",
-			"aid-20",
-			"Orzeczenie <i>",
-			"orzeczenie<",
-			"<a href=\"<!--$share-->u=<!--$url-->%23aid-\" class=\"btn btn-block btn-fb\">Podziel się na Facebooku</a>\n                <a href=<!--$tweet-->url=<!--$url-->%23aid-&text= class=\"btn btn-block btn-tw\">Podziel się na Twitterze</a>",
-			"\"<!--$share-->\"",
-			"\"<!--$tweet-->\"",
-			"<a href=\"\" class=\"btn btn-block btn-tw\">Podziel się na Twitterze</a>",
-			"<a href=\"\" class=\"btn btn-block btn-fb\">Podziel się na Facebooku</a>",
-			"zaimki osobowe",
-			"sprawdź",
-			"sprawd",
-			"zaprzeszły",
-			"równierz",
-			"czasowniki modalne",
-			"sendGa",
-			"<dd><a class=\"aid-anchor\"",
-			"aid-anchor",
-			"teraźnijesz",
-			"\"aid-\"",
-			"Ćwiczenie",
-			"#aid",
-			"\"#\"",
-			"aid-anchor",
-			"<a href=\"\">",
-			"<a href=\"\"",
-			"#aid-",
-			"href=\"http://",
-			"Fejsie",
-			"font-light",
-			",.aid-aside p + ul",
-			"<a ",
-			"<a href=\"#!\" class=\"aid-close\"></a>",
-			"z regó",
-			"btn-close",
-			"\"id",
-			"<div class=\"aid-hidden\">",
-			"close",
-			"\"np\"",
-			"\"h3\""
+			"powin",
+			"powinn",
+			"podmio",
+			"1f912",
+			"forkj",
+			"jern",
+			"1f957",
+			"1f681",
+			"1f468-1f3fb-2695",
+			"1f468-1f3fb",
+			"1f468-",
+			"1f468-1f3fb-2695",
+			"kom ut",
+			"1f60e",
+			"for lav",
+			"1f628",
+			"tannlegen",
+			"solkrem",
+			"2600",
+			"gråt",
+			"Ikke gr",
+			"ikke gr",
+			"1f622",
+			"1f6cc-1f3fb",
+			"przenieśli",
+			"1f927",
+			"smitte",
+			"1f48a",
+			"1f6cc",
+			"en pille",
+			"blodprøve",
+			"1f489",
+			"1f6cf",
+			"przenieśli",
+			"Przymiotnik",
+			"vaksi",
+			"1f489",
+			"futurum"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
 		[
+			"<h4>&nbsp;</h4>\n\n    </div>",
+			"",
+			"aid-footer row",
+			"aid-footer group",
+			"<div class=\"col-8\">",
+			"<div class=\"aid-footer__col pad white rounded\">",
+			"<h4>Ćwiczenia z tego tematu</h4>",
+			"<!-- @import \"faces.kit\" -->",
+			"preteritum",
+			"js__tid",
+			"aid-item__tid",
+			"aid-item__czasy",
+			"js__tid",
+			"\"aid-table aid-table-np\"",
+			"<dt class=\"con\">",
+			"</dt>",
+			"<dt lang=\"no\">",
+			"</dl>",
+			"<dl class=\"dl-eg aid-np\">",
+			"aid-item__czasy--",
+			"aid-item__szyk--",
+			"aid-item__zaimki--",
+			"przymiotniki--",
+			"czasy--",
+			"aid-footer__col aid-share",
+			"aid-footer__col pad white rounded",
+			"    </table>\n  </div>",
+			"<div class=\"aid-table-wrapper\">\n    <table class=\"aid-table\">",
 			"h3>",
 			"</article>",
 			"\n\n<hr class=\"aid-hr\" />",
@@ -853,35 +929,7 @@
 			"$red-border",
 			"$orange-light",
 			"$orange-hover",
-			"$orange-border",
-			"$green-light",
-			"$green-hover",
-			"$green-border",
-			"$blue-light",
-			"$blue-border",
-			"$beige-hover",
-			"$beige-border",
-			"$space-half",
-			"$dark-btn",
-			"orange-hover",
-			"green-hover",
-			"beige-hover",
-			"beige-light",
-			"beige-border",
-			"blue-border",
-			"blue-light",
-			"green-light",
-			"orange-light",
-			"red-light",
-			"red-hover",
-			"dark-light",
-			"dark-border",
-			"dark-btn-hover",
-			"dark-btn-border",
-			"green-border",
-			"orange-border",
-			"red-border",
-			"$white"
+			"$orange-border"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -892,143 +940,75 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 9,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "kit/index.kit",
-					"settings":
-					{
-						"buffer_size": 1863,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1638,
-								1638
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 232.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "kit/_sidebar.kit",
-					"settings":
-					{
-						"buffer_size": 3645,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								34,
-								34
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "kit/_main.kit",
-					"settings":
-					{
-						"buffer_size": 67316,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2524,
-								2535
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "kit/_header.kit",
-					"settings":
-					{
-						"buffer_size": 1549,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1418,
-								1425
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "/Users/marcinretecki/Sites/nocnasowa/Framework/sass/norweskagramatyka.scss",
 					"settings":
 					{
-						"buffer_size": 6853,
+						"buffer_size": 7611,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3693,
+								3670
 							]
 						],
 						"settings":
 						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
 							"spell_check": false,
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
@@ -1036,54 +1016,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2626.0,
+						"translation.y": 2452.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "kit/_footer.kit",
-					"settings":
-					{
-						"buffer_size": 925,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								46,
-								46
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
+					"buffer": 1,
 					"file": "norweskagramatyka.js",
 					"settings":
 					{
-						"buffer_size": 3607,
+						"buffer_size": 6854,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								509,
-								509
+								5622,
+								5622
 							]
 						],
 						"settings":
@@ -1139,35 +1090,82 @@
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
 							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4211.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "lista-pytan.json",
+					"buffer": 2,
+					"file": "kit/_footer.kit",
 					"settings":
 					{
-						"buffer_size": 1260,
+						"buffer_size": 981,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								600,
-								600
+								231,
+								231
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
-							"syntax": "Packages/Better JavaScript/JSON.tmLanguage",
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -1178,25 +1176,755 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/Users/marcinretecki/Sites/nocnasowa/Framework/sass/partials/_media.scss",
+					"buffer": 3,
+					"file": "kit/index.kit",
 					"settings":
 					{
-						"buffer_size": 2412,
+						"buffer_size": 6828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								6741,
+								6741
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Blackboard.tmTheme",
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/marcinretecki/Sites/nocnasowa/livecopy/las/c/i/emojione.sprites.svg",
+					"settings":
+					{
+						"buffer_size": 3159538,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2832571,
+								2831887
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 307852.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "kit/_szyk.kit",
+					"settings":
+					{
+						"buffer_size": 29062,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26997,
+								26997
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12292.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "kit/_czasy.kit",
+					"settings":
+					{
+						"buffer_size": 14391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3662,
+								3662
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1100.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "kit/_zaimki.kit",
+					"settings":
+					{
+						"buffer_size": 11228,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5430,
+								5430
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1717.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "kit/_czasowniki.kit",
+					"settings":
+					{
+						"buffer_size": 11034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10562,
+								10562
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3828.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "kit/_przymiotniki.kit",
+					"settings":
+					{
+						"buffer_size": 10686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9166,
+								9166
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3005.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "kit/_rzeczowniki.kit",
+					"settings":
+					{
+						"buffer_size": 12537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11397,
+								11397
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4507.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "smile_sad.sprites.svg",
+					"settings":
+					{
+						"buffer_size": 48067,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47433,
+								47428
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5358.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "kit/_faces.kit",
+					"settings":
+					{
+						"buffer_size": 501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								148,
+								135
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1263,6 +1991,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 225.0,
+	"side_bar_width": 224.0,
 	"status_bar_visible": true
 }
