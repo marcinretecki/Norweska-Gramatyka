@@ -38,29 +38,51 @@ var grammar = function() {
   };
 
   var problems = [
-  'eiendomspronomen',
-  'personlige-pronomen',
-  'sporrepronomen',
-  'refleksive-pronomen',
-  'verb',
-  'imperativ',
-  'modale',
-  'adjektiv',
-  'gradering',
-  'perfektum-partisipp',
-  'sideordning',
-  'underordning',
-  'sporsmal',
-  'syntaks',
-  'substantiv',
-  'determinativ',
-  'genitiv',
-  'presens-perfektum',
-  'presens',
-  'futurum',
-  'preteritum',
-  'passiv'
+    'eiendomspronomen',
+    'personlige-pronomen',
+    'sporrepronomen',
+    'refleksive-pronomen',
+    'verb',
+    'imperativ',
+    'modale',
+    'adjektiv',
+    'gradering',
+    'perfektum-partisipp',
+    'sideordning',
+    'underordning',
+    'sporsmal',
+    'syntaks',
+    'substantiv',
+    'determinativ',
+    'genitiv',
+    'presens-perfektum',
+    'presens',
+    'futurum',
+    'preteritum',
+    'passiv'
   ];
+
+
+  //  backgrounds object
+  //  title: [ artist, url, back-position ]
+  var backgrounds = {
+    empty: [
+      'zostajemy przy zielonym tle'
+    ],
+    apodictische_waaren: [
+      'Jacob Smies',
+      'https://www.rijksmuseum.nl/en/collection/RP-T-1897-A-3489'
+    ],
+    piskijker_en_boeren_familie: [
+      'Nicolaes van Haeften',
+      'https://www.rijksmuseum.nl/en/collection/RP-P-1892-A-17348',
+      'center top'
+    ],
+    still_life_with_books: [
+      'Jan Davidsz. de Heem',
+      'https://www.rijksmuseum.nl/en/collection/SK-A-2565'
+    ]
+  };
 
 
   function init() {
@@ -69,6 +91,8 @@ var grammar = function() {
     checkHash();
     checkTime( new Date() );
 
+    changeHeaderImg();
+
   }
 
 
@@ -76,6 +100,95 @@ var grammar = function() {
   init();
 
 
+
+  function changeHeaderImg() {
+
+    var header;
+    var headerWrap;
+    var aidImg;
+    var artist;
+
+    //  wylosuj jeden background
+    var backName = getRandomBack();
+    var backData = backgrounds[ backName ];
+
+    //console.log(backName);
+    //console.log(backData);
+
+    //  jeśli empty, return
+    if ( backName === 'empty' ) {
+      return;
+    }
+
+    //  prepere elements
+    header = document.getElementById( 'aid-header' );
+    headerWrap = header.parentNode;
+    aidImg = document.getElementById( 'aid-header-img' );
+    aidImg.parentNode.removeChild( aidImg );
+    artist = document.createElement( 'a' );
+    artist.href = backData[1];
+    artist.innerHTML = backData[0];
+    artist.target = '_blank';
+    artist.className = 'aid-header-artist';
+
+    //  change headerWrap
+    headerWrap.style.backgroundImage = 'url( \'i/' + backName + '.jpg \')';
+    headerWrap.className = 'section-trans';
+    header.classList.add( 'aid-header--back' );
+
+    //  if there is background-positioning
+    if ( backData[2] ) {
+      headerWrap.style.backgroundPosition = backData[2];
+    }
+
+    header.appendChild( artist );
+
+  }
+
+
+  function getRandomBack() {
+    var property;
+    var propArray = [];
+
+    //  Push first items
+    for ( property in backgrounds ) {
+      if ( backgrounds.hasOwnProperty( property ) ) {
+        // if it is own property
+
+        propArray.push( property );
+
+      }
+    }
+
+    propArray = shuffleArray( propArray );
+
+    return propArray[1];
+  };
+
+
+  //  Fisher-Yates Shuffle
+  function shuffleArray( propArray ) {
+
+    var counter = propArray.length;
+    var index;
+    var temp;
+
+    //  While there are elements in the propArray
+    while (counter > 0) {
+      //  Pick a random index
+      index = Math.floor(Math.random() * counter);
+
+      //  Decrease counter by 1
+      counter--;
+
+      //  And swap the last element with it
+      temp = propArray[counter];
+      propArray[counter] = propArray[index];
+      propArray[index] = temp;
+    }
+
+    return propArray;
+  };
 
 
 

@@ -49,6 +49,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/i\/apodictische_waaren.jpg": {
+		"ft": 16384,
+		"iS": 249622,
+		"oA": 0,
+		"oAP": "\/i\/apodictische_waaren.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 60
+		},
+	"\/i\/still_life_with_books.jpg": {
+		"ft": 16384,
+		"iS": 205534,
+		"oA": 0,
+		"oAP": "\/i\/still_life_with_books.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 60
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 0,
