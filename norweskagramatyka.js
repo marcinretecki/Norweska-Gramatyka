@@ -78,10 +78,6 @@ var grammar = function() {
       'https://www.rijksmuseum.nl/en/collection/RP-P-1892-A-17348',
       'center top'
     ],
-    still_life_with_books: [
-      'Jan Davidsz. de Heem',
-      'https://www.rijksmuseum.nl/en/collection/SK-A-2565'
-    ]
   };
 
 
