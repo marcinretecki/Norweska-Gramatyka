@@ -87,7 +87,7 @@ var grammar = function() {
     checkHash();
     checkTime( new Date() );
 
-    changeHeaderImg();
+    //changeHeaderImg();
 
   }
 
